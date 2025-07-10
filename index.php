@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
-    <?php
-    @include("header.php")
-    ?>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assests/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assests/css/font-awesome-min.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
     <title>Login | Library Management System</title>
 </head>
 
@@ -45,9 +47,6 @@
         </div>
     </div>
 
-    <script src="./assests/js/bootstrap.bundle.min.js">
-    </script>
-    <script src="./assests/js/fontawesome.min.js"></script>
-</body>
-
-</html>
+    <?php
+    @include_once("include/footer.php");
+    ?>

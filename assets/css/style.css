@@ -1,0 +1,39 @@
+:root {
+    --offcanvas-width: 270px;
+    --topNavHeight: 56px;
+}
+
+.sidebar-style {
+    width: var(--offcanvas-width) !important;
+}
+
+.sidebar-link[aria-expanded="true"] .right-icon {
+    transform: rotate(180deg);
+}
+
+.sidebar-link .right-icon {
+    transition: all 0.5s;
+}
+
+@media(min-width: 992px) {
+    .ofcanvas-backdrop {
+        display: none !important;
+    }
+
+    .sidebar-style {
+        visibility: visible !important;
+        transform: none !important;
+        top: var(--topNavHeight) !important;
+    }
+
+    main {
+        margin-left: var(--offcanvas-width);
+    }
+}
+
+@media(max-width:480px) {
+    .dashboard-count .card  {
+        margin-bottom: 15px;
+
+    }
+}
