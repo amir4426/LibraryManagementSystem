@@ -32,11 +32,12 @@
                     <div>
                         <ul class="navbar-nav ps-3 ">
                             <li>
-                                <a href="" class="nav-item text-white text-decoration-none my-3"><i
+                                <a href="<?php echo $base_url ?>books/add-book.php"
+                                    class="nav-item text-white text-decoration-none my-3"><i
                                         class="fas fa-plus me-2"></i> Add New</a>
                             </li>
                             <li>
-                                <a href="/books/manage-book.php"
+                                <a href="<?php echo $base_url ?>books/manage-book.php"
                                     class="nav-item text-white text-decoration-none my-3"><i
                                         class="fas fa-list me-2"></i> Manage All</a>
                             </li>

@@ -25,7 +25,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
-                        <img width="30px" src="./assests/images/profile.webp" alt="admin" class="rounded-circle">
+                        <img width="30px" src="/assets/images/profile.webp" alt="admin" class="rounded-circle">
                         Admin
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">

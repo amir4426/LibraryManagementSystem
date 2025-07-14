@@ -1,11 +1,13 @@
 <?php
 
-$base_url = ('http://localhost:8000/');
-$dir_url = $_SERVER['DOCUMENT_ROOT'];
 
-@include_once("include/header.php");
-@include_once("include/topbar.php");
-@include_once("include/sidebar.php");
+@include_once("../config/config.php"); // Adjust path based on where your file is
+
+
+
+@include_once("./include/header.php");
+@include_once("./include/topbar.php");
+@include_once("./include/sidebar.php");
 
 ?>
 
